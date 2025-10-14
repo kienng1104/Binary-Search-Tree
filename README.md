@@ -1,9 +1,4 @@
-## Goal:
-To gain a better understanding of tree data structures by implementing a Binary Search Tree (BST)
-
 ## Specifications:
-* First, you will need to create a `BST.java` file in `./app/src/main/java/cs1501_p1/`. This file should contain your implementation of a class named `BST` that implements `BST_Inter`, uses `BT_Node` objects as its nodes, and stores generic keys that extend `Comparable` (i.e., defined as `BST<T extends Comparable<T>>`).
-* Your `BST` class should implement the following methods:
     * `put()`: Add a new key to the BST
     * `contains()`: Search the BST for a key, return `true` if the key is present, `false` if it is not.
     * `delete()`: Remove a key from the BST
