@@ -1,4 +1,5 @@
 ## Specifications:
+Here is the specification for BST.java
     * `put()`: Add a new key to the BST
     * `contains()`: Search the BST for a key, return `true` if the key is present, `false` if it is not.
     * `delete()`: Remove a key from the BST
