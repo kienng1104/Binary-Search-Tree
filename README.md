@@ -1,5 +1,5 @@
 ## Specifications:
-Here is the specification for BST.java
+Here is the specification for BST.java  
     * `put()`: Add a new key to the BST
     * `contains()`: Search the BST for a key, return `true` if the key is present, `false` if it is not.
     * `delete()`: Remove a key from the BST
@@ -11,6 +11,7 @@ Here is the specification for BST.java
 
         ![In-order traversal example](images/p1_i1.png "Image1")
 
+.  
         Calling `inOrderTraversal()` on this tree should return the String `"2:5:8:10:16:37:45"`.
     * `serialize()`: Perform a pre-order traversal of the BST in order to produce a String representation of the BST.
         The reprsentation should be a comma separated list where each entry represents a single node. Each entry should take the form: *type*(*key*).
@@ -24,7 +25,7 @@ Here is the specification for BST.java
         Consider the following:
 
         ![Serialization example](images/p1_i2.png "Image2")
-
+.  
         Calling `serialize()` on this tree should return the String `"R(10),I(5),L(2),X(NULL),I(37),X(NULL),L(45)"`.
     * `reverse()`: Produce a deep copy of the BST that is reversed (i.e., left children hold keys greater than the current key, 
         right children hold keys less than the current key).
