@@ -9,7 +9,7 @@ Here is the specification for BST.java
     `inOrderTraversal()`: Perform an in-order traversal of the tree and produce a String containing the keys in ascending order, separated by `':'`'s.
         Consider the following example:
 
-[In-order traversal example](images/p1_i1.png "Image1")
+![In-order traversal example](images/p1_i1.png "Image1")
 
 .  
     Calling `inOrderTraversal()` on this tree should return the String `"2:5:8:10:16:37:45"`.
